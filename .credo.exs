@@ -100,11 +100,14 @@
         #
         ## Refactoring Opportunities
         #
+        {Credo.Check.Refactor.Apply, false},
         {Credo.Check.Refactor.CondStatements, []},
         {Credo.Check.Refactor.CyclomaticComplexity, []},
+        {Credo.Check.Refactor.FilterCount, false},
         {Credo.Check.Refactor.FunctionArity, []},
         {Credo.Check.Refactor.LongQuoteBlocks, []},
         {Credo.Check.Refactor.MapInto, false},
+        {Credo.Check.Refactor.MapJoin, [exit_status: 0]},
         {Credo.Check.Refactor.MatchInCondition, []},
         {Credo.Check.Refactor.NegatedConditionsInUnless, []},
         {Credo.Check.Refactor.NegatedConditionsWithElse, []},
